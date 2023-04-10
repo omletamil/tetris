@@ -1,0 +1,40 @@
+.container{
+    margin-left: 12px;
+}
+
+.grid{
+    width: 200px;
+    height: 400px;   
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to top, #5cfcd4, #4695fc);
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+
+ 
+}
+
+.tetromino{
+    /*background-image: linear-gradient(to bottom right, #ff0000, #0000ff);*/
+    border-radius: 6px;
+    border: 2px groove yellow;
+    box-sizing: border-box;
+}
+
+.minigrid {
+    margin-top: -400px;
+    margin-left: 220px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to top, red, orange);
+}
+
+.minigrid div {
+    height: 20px;
+    width: 20px;
+}
